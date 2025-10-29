@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEO VOLLEYBALL LEAGUE</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header class="topbar">
+        <h1>NEO VOLLEYBALL LEAGUE</h1>
+    </header>
+
+    <div class="container">
+        <nav class="sidebar">
+            <ul>
+                <li class="active">Dashboard</li>
+                <li>Traits</li>
+                <li>Subtraits</li>
+                <li>Specs</li>
+                <li>Teams</li>
+                <li>Players</li>
+                <li>Stats</li>
+            </ul>
+        </nav>
+
+        <main class="content">
+            <!-- DASHBOARD -->
+            <section id="dashboard" class="section active">
+                <h2>Welcome to the NEO VOLLEYBALL LEAGUE</h2><br />
+                <img src="imgs/WelcomeToNvl.png" alt="NEO VOLLEYBALL LEAGUE Banner" class="hero">
+                <p>
+                    Explore traits, subtraits, and specs of your favorite volleyball
+                    players. Click below to join the official Roblox game:
+                </p>
+                <div class="dashboard-links">
+                    <a href="https://www.roblox.com/games/14739523010/NEO-VOLLEYBALL-LEAGUE-RELEASE" target="_blank"
+                        class="cta-button">Play on Roblox</a>
+                    <a href="https://discord.gg/mCmZr9uYbE" target="_blank" class="cta-button">Join Discord</a>
+                    <a href="https://www.roblox.com/communities/1051306162/NEO-VOLLEYBALL-LEAGUE-Hub#!/about"
+                        target="_blank" class="cta-button">Roblox Group</a>
+                </div>
+
+            </section>
+
+            <!-- TRAITS -->
+            <section id="traits" class="section">
+                <h2>TRAITS</h2>
+                <div class="grid" id="traitsGrid"></div>
+            </section>
+
+            <!-- SUBTRAITS -->
+            <section id="subtraits" class="section">
+                <h2>SUBTRAITS</h2>
+                <div class="grid" id="subtraitsGrid"></div>
+            </section>
+
+            <!-- SPECS -->
+            <section id="specs" class="section">
+                <h2>SPECS</h2>
+
+                <div class="spec-category">
+                    <h3>SETTER SPECS:</h3>
+                    <div class="spec">
+                        <h4>Oikawa 🌟🌟🌟🌟</h4>
+                        <p>Height: 6'1 (5'11 - 6'3)<br>
+                            <strong>Passives:</strong> Topspin Specialist, Athletic, Expansive Reach, Accelerator, Big
+                            Arms.<br>
+                            <strong>Actives:</strong> 16.7 Power (serve only), Buffed Side Spinner, Buffed Topspin
+                            Specialist.<br>
+                            Duration: 13s — Cooldown: 170s — Aura: Blue.
+                        </p>
+                    </div>
+
+                    <div class="spec">
+                        <h4>Kageyama 🌟🌟🌟🌟</h4>
+                        <p>Height: 6’0 (5’10 - 6’2)<br>
+                            <strong>Passives:</strong> Expansive Reach, Iron Lungs, Accelerator, Athletic, Stop Sets
+                            (20s CD).<br>
+                            <strong>Actives:</strong> Strong Hitter, Stop Sets no CD, Top Spinner, No Quick Debuff.<br>
+                            Duration: 20s — Cooldown: 175s — Aura: Orange / Black.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="spec-category">
+                    <h3>OUTSIDE HITTER SPECS:</h3>
+
+                    <div class="spec">
+                        <h4>Sakusa 🌟🌟🌟🌟🌟</h4>
+                        <p>Height: 6'2 (6'0 - 6'4)<br>
+                            <strong>Passives:</strong> Expansive Reach, Topspin Specialist, Side Spinner, Wipeout
+                            Specialist, Big Arms, Stabilized Core.<br>
+                            <strong>Actives:</strong> Curve Spikes (A = left, D = right), Hang Time, Strong Hitter,
+                            Heavy Hitter.<br>
+                            Duration: 13s — Cooldown: 180s — Aura: Green / Black.
+                        </p>
+                    </div>
+
+                    <div class="spec">
+                        <h4>Kiryuu 🌟🌟🌟🌟🌟</h4>
+                        <p>Height: 6'2 (6'0 - 6'4)<br>
+                            <strong>Passives:</strong> Explosive Legs, Strong Hitter (15.9), Athletic, Trained Legs,
+                            Heavy Hitter, Wipeout Specialist.<br>
+                            <strong>Actives:</strong> Access to 16.2 Power, Receive Shattering Spikes, Expansive Reach,
+                            Topspin Specialist.<br>
+                            Duration: 13s — Cooldown: 180s — Aura: Dark Green.
+                        </p>
+                    </div>
+
+                    <div class="spec">
+                        <h4>Korai 🌟🌟🌟🌟</h4>
+                        <p>Height: 5'6 (5'4 - 5'8)<br>
+                            <strong>Passives:</strong> Buffed Explosive Legs (2.5), Big Arms, Firm Hands, Soft Touch,
+                            Trained Legs.<br>
+                            <strong>Actives:</strong> Extremely Buffed Explosive Legs (4), Accelerator, Auto Tool (A =
+                            left, D = right).<br>
+                            Duration: 15s — Cooldown: 175s — Aura: White / Feathered.
+                        </p>
+                    </div>
+
+                    <div class="spec">
+                        <h4>Bokuto 🌟🌟🌟🌟</h4>
+                        <p>Height: 6'3 (6'1 - 6'5)<br>
+                            <strong>Passives:</strong> Athletic, Iron Lungs, Heavy Hitter, Wipeout Specialist,
+                            Rebounder.<br>
+                            <strong>Actives:</strong> Access to 16 Power, Accelerator, Hang Time, Air Turn (0.5s).<br>
+                            Duration: 15s — Cooldown: 170s — Aura: Gold / Grey.
+                        </p>
+                    </div>
+
+                    <div class="spec">
+                        <h4>Asahi 🌟🌟🌟</h4>
+                        <p>Height: 6'1 (5'11 - 6'3)<br>
+                            <strong>Passives:</strong> Strong Hitter, Expansive Reach, Wipeout Specialist, Hang
+                            Time.<br>
+                            <strong>Actives:</strong> Access to 15.9 Power, Heavy Hitter, 2x Hang Time.<br>
+                            Duration: 10s — Cooldown: 160s — Aura: Dark Orange.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="spec-category">
+                    <h3>OPPOSITE HITTER SPECS:</h3>
+                    <div class="spec">
+                        <h4>Ushijima 🌟🌟🌟🌟🌟</h4>
+                        <p>Height: 6'3 (6'1 - 6'5)<br>
+                            <strong>Passives:</strong> Strong Hitter, Expansive Reach, Wipeout Specialist, Side Spinner,
+                            Trained Legs, Heavy Hitter.<br>
+                            <strong>Actives:</strong> Buffed Strong Hitter (16.2), Buffed Expansive Reach (1.5),
+                            Athletic, Receive Break (Spec only).<br>
+                            Duration: 10s — Cooldown: 180s — Aura: Plum.
+                        </p>
+                    </div>
+
+                    <div class="spec">
+                        <h4>Mad Dog 🌟🌟🌟🌟</h4>
+                        <p>Height: 5'11 (5'9 - 6'1)<br>
+                            <strong>Passives:</strong> Strong Hitter, Accelerator, Heavy Hitter, Nerfed Explosive Legs
+                            (.5).<br>
+                            <strong>Actives:</strong> Buffed Strong Hitter (15.9), Flexible Torso.<br>
+                            Duration: 12.5s — Cooldown: 165s — Aura: Yellow.
+                        </p>
+                    </div>
+
+                    <div class="spec">
+                        <h4>Gao 🌟🌟🌟</h4>
+                        <p>Height: 6'8 (6'6 - 6'10)<br>
+                            <strong>Passives:</strong> Expansive Reach, Strong Hitter, Firm Hands.<br>
+                            <strong>Actives:</strong> Buffed Strong Hitter (15.8), Buffed Expansive Reach (1.75), Quick
+                            Blocker.<br>
+                            Duration: 15s — Cooldown: 155s — Aura: White.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="spec-category">
+                    <h3>MIDDLE BLOCKER SPECS:</h3>
+                    <div class="spec">
+                        <h4>Hirugami 🌟🌟🌟🌟🌟</h4>
+                        <p>Height: 6'3 (6'1 - 6'5)<br>
+                            <strong>Passives:</strong> Firm Hands, Expansive Reach, Quick Blocker, Fast Approach, Heavy
+                            Floater.<br>
+                            <strong>Actives:</strong> Untoolable / Unbreakable Blocks, Block hitbox widens by .5,
+                            Floaters cause Receive Break.<br>
+                            Duration: 13s — Cooldown: 180s — Aura: White.
+                        </p>
+                    </div>
+
+                    <div class="spec">
+                        <h4>Tsukishima 🌟🌟🌟</h4>
+                        <p>Height: 6'2 (6'0 - 6'4)<br>
+                            <strong>Passives:</strong> Expansive Reach, Firm Hands, Quick Blocker.<br>
+                            <strong>Actives:</strong> Soft Touch, Fast Approach, Athletic, Buffed Firm Hands.<br>
+                            Duration: 15s — Cooldown: 150s — Aura: Yellow / Orange.
+                        </p>
+                    </div>
+                    <div class="spec">
+                        <h4>Rintaro ⭐⭐⭐⭐</h4>
+                        <p>
+                            Height: 6'2 (6'0 - 6'4)<br>
+                            <strong>Passives:</strong> Flexible Torso, Nerfed Expansive Reach (0.75), Athletic, Quick
+                            Blocker.<br>
+                            <strong>Actives:</strong> Expansive Reach, Extremely Buffed Flexible Torso.<br>
+                            Duration: 10s — Cooldown: 160s — Aura: Black (with a hint of grey).
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="spec-category">
+                    <h3>LIBERO SPECS:</h3>
+                    <div class="spec">
+                        <h4>Motoya 🌟🌟🌟🌟🌟</h4>
+                        <p>Height: 5'10 (5'8 - 6'0)<br>
+                            <strong>Passives:</strong> Big Arms, +1 Dive Hitbox, Iron Lungs, Stabilized Core,
+                            Accelerator.<br>
+                            <strong>Actives:</strong> Athletic, +2 Dive Hitbox, Buffed Accelerator, Split Stepper.<br>
+                            Duration: 25s — Cooldown: 180s — Aura: Yellow.
+                        </p>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- TEAMS -->
+            <section id="teams" class="section">
+                <h2>TEAMS</h2>
+                <p>Coming soon...</p>
+            </section>
+
+            <!-- PLAYERS -->
+            <section id="players" class="section">
+                <h2>PLAYERS</h2>
+                <p>Coming soon...</p>
+            </section>
+
+            <!-- STATS -->
+            <section id="stats" class="section">
+                <h2>STATS</h2>
+                <p>Coming soon...</p>
+            </section>
+        </main>
+    </div>
+
+    <footer>
+        <p>© 2025 NEO VOLLEYBALL LEAGUE</p>
+    </footer>
+
+    <!-- MODAL -->
+    <div id="abilityModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="modalTitle"></h3>
+            <p id="modalDescription"></p>
+        </div>
+    </div>
+
+    <script src="javascript/script.js"></script>
+</body>
+
+</html>
